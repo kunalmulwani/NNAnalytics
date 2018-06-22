@@ -46,7 +46,7 @@ apply plugin: 'license'
 apply plugin: 'com.diffplug.gradle.spotless'
 
 ext {
-    hadoopVersion = (properties.get("hadoopVersion") == null) ? "2.7.0" : "${hadoopVersion}"
+    hadoopVersion = (properties.get("hadoopVersion") == null) ? "2.4.0" : "${hadoopVersion}"
     println("Building with hadoopVersion: ${hadoopVersion}")
 }
 
